@@ -26,11 +26,11 @@ Log in
                     <form id="form_login" class="form_login" action="{{ url('/login') }}" method="post" autocomplete="off">
                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
                        <div class="form-group has-feedback">
-                        <input type="text" class="form-control" style="text-align: center; color: white;" placeholder="Nombre de Usuario" id="username" name="username" />
+                        <input type="text" class="form-control" style="text-align: center;" placeholder="Nombre de Usuario" id="username" name="username" />
                         <span class="glyphicon glyphicon-user form-control-feedback" style="color: white;"></span>
                     </div>
                     <div class="form-group">
-                        <input type="password" id="password1" class="form-control" style="text-align: center; color: white;" placeholder="{{ trans('adminlte_lang::message.password') }}" name="password" id="password" />
+                        <input type="password" id="password1" class="form-control" style="text-align: center;" placeholder="{{ trans('adminlte_lang::message.password') }}" name="password" id="password" />
                         <input type="checkbox" class="vercontra" id="ver" style="display: none">
                         <label for="ver" style="position: absolute;right:5px;bottom: 185px;z-index: 2; display: block;width: 34px;height: 34px;line-height: 34px;text-align: center; color: white;"><i style="margin-top:2px; font-size: 1.8rem; cursor: pointer; color: white;" class="fa fa-eye fa-fw "></i></label>
                     </div>
