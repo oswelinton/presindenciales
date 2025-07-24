@@ -1,0 +1,101 @@
+/*.tabla{
+        background-image: url('../img/tabla.png');
+        height:280px;
+        width: 280px;
+        background-size: 300px;
+        background-repeat: no-repeat;
+        position: fixed;
+        bottom: 0;
+        right:  0;
+    }
+    .caja{
+        background-image: url('../img/cajas.png');
+        height:280px;
+        width: 305px;
+        background-size: 305px;
+        background-repeat: no-repeat;
+        position: fixed;
+        bottom: 0;
+        left:   0;
+    }
+    .inv{
+        background-image: url('../img/inv.png');
+        height:280px;
+        width: 500px;
+        background-size:500px;
+        background-repeat: no-repeat;
+        position: fixed;
+        margin:0 auto;
+        left:   0;
+        right:   0;
+        bottom: 0;
+    }
+    .inv1{
+        background-image: url('../img/inv1.png');
+        height:280px;
+        width: 400px;
+        background-size:400px;
+        background-repeat: no-repeat;
+        position: fixed;
+        margin:0 0 0 15px;
+        top: 30%;
+        left:   0;
+        right:   0;
+        bottom: 0;
+    }
+    .inv2{
+        background-image: url('../img/inv2.png');
+        height:280px;
+        width: 370px;
+        background-size:500px;
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 30%;
+        margin:0 auto;
+        left:   0;
+        right:   0;
+        bottom: 0;
+
+    }*/
+/*    .background-dem{
+        background: #a99d8b;height: 100vh;width: 100vw;position: absolute;z-index: -2;min-width: 1200px;min-height: 625px
+    }*/
+    .body{
+            /*background-image: url('../img/icons/VistaLogeo.jpg');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    }
+        #login-box {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        right: 0;
+        top: 20%;
+        /* transform: translateX(-50%); */
+        width: 350px;
+        margin: 0 auto;
+        border: 1px solid rgba(255,255,255,0.05);
+        background: transparent;
+        min-height: 250px;
+        padding: 20px;
+        -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    }
+    .center-block {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #login-box .controls {
+        padding-top: 30px;
+    }
+    #login-box .controls input {
+        border-radius: 0px;
+        /* background: rgb(98, 96, 96); */
+        border: 0px;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    }
